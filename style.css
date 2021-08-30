@@ -27,14 +27,45 @@
     text-align: center;
     padding-top: 22%;
 }
-
-
-/* .content{
-    background-color: #C68B59;
-} */
-/* .reviews{
-    background-color: #57a547;
+.content div h1{
+    text-align: center;
+    background-color:black;
+    color: white;
 }
-.contact{
-    background-color: #865439;
-} */
+.tableContainer{
+    background-color: #d1c7c8;
+    text-align: center;
+}
+table,th, td{
+    border: 2px solid rgb(48, 38, 38);
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    /* text-align: center; */
+    margin-left: 25%;
+    /* padding: 20px; */
+
+}
+td{
+    /* text-align: center; */
+    /* padding: 5px 0; */
+}
+tr:nth-child(even){
+    background-color: #6dda2f;
+}
+
+
+.reviews{
+    background-color: #697a51;
+}
+.reviews h2{
+    text-align: center;
+}
+.reviews .review1{
+    background-color: #74502e;
+}
+.reviews .review1 p{
+    padding-left: 5%;
+}
+
